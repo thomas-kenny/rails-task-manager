@@ -1,5 +1,7 @@
+<h2>Edit task</h2>
+<br>
 <div>
-  <%= form_for(@task) do |f| %>
+  <%= simple_form_for(@task) do |f| %>
   <%= f.label :name %>
   <%= f.text_field :name %>
   <%= f.label :details %>
